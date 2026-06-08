@@ -1,0 +1,11 @@
+{
+  "date": "2026-06-06",
+  "clean_file": "/opt/airflow/data/processed/clean_2026-06-06.csv",
+  "quarantine_file": "/opt/airflow/data/quarantine/quarantine_2026-06-06.csv",
+  "n_total": 510,
+  "n_clean": 451,
+  "n_quarantine": 59,
+  "quality_rate": 88.43,
+  "generated_at": "2026-06-07T22:35:47.415748",
+  "status": "PASS"
+}

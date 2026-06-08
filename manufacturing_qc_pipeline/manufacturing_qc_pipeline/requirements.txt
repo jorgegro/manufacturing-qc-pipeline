@@ -1,0 +1,24 @@
+# requirements.txt
+# ─────────────────────────────────────────────────────────────────────────────
+# Core pipeline dependencies
+# Install locally with:  pip install -r requirements.txt
+# Airflow workers install via _PIP_ADDITIONAL_REQUIREMENTS in docker-compose.yml
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Orchestration
+apache-airflow==2.8.1
+
+# Data processing
+pandas>=2.0
+numpy>=1.26
+
+# Data quality (optional — used for advanced checks)
+great-expectations>=0.18
+
+# Testing
+pytest>=7.4
+pytest-cov>=4.1
+
+# Linting / formatting (dev only)
+ruff>=0.1
+black>=23.0
